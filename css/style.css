@@ -1,0 +1,222 @@
+.container{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face {
+font-family: DK Mango Smoothie;
+src: url(dk-mango-smoothie.otf);
+}
+
+@font-face {
+font-family: Carvoting;
+src: url(cavorting.otf);
+}
+
+/*________HEAD________*/
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.head{
+	background-color: #5c50cf;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+
+	.menu__item{
+		flex-grow: 1;
+	}
+	.menu__link{
+		text-decoration: none;
+		font-family: DK Mango Smoothie;
+		font-size: 30px;
+		display: block;
+		padding: 30;
+		background-color: #5c50cf;
+		color: #fff;
+		text-align: center;
+		transition: all 0.4s;
+	}
+
+	.menu li{
+		padding: 30px;
+	}
+
+/*________INICIO________*/
+
+.introduction{
+	display: inline-block;
+	vertical-align: middle;
+	height: 775px;
+	margin-top: 207px;
+}
+
+.inicio{
+		background-image: url("../images/white.jpg");
+		background-size: cover;
+		height: 775px;
+}
+
+.inicio h2{
+	text-align: center;
+	color: #0bdbd8;
+	font-family: Cavorting;
+	font-size: 160px;
+	margin: 0;
+}
+
+.inicio p{
+	text-align: center;
+	font-family: Century Gothic Regular;
+	margin-top: -1px;
+	color: #5c50cf;
+	font-size: 50px;
+
+}
+
+/*----quiénsoy-----*/
+
+.quiensoy{
+	padding: 100px;
+	text-align: center;
+
+}
+
+.quiensoy p{
+
+	font-size: 21.5px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 830px;
+}
+
+
+/*----portafolio-----*/
+
+.portafolio{
+	background-color: #0bdbd8;
+	padding: 30px;
+}
+
+
+.card{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		}
+
+.personalimages h3{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	color: #fff;
+	background-color: #5c50cf;
+}
+
+.bookimages h3{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	color: #fff;
+	background-color: #5c50cf;
+}
+
+.bookimages h4{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 120px;
+	font-size: 30px;
+	padding: 15px;
+	color: #fff;
+	background-color: #5c50cf;
+}
+a{ 
+			color: #fff;
+			list-style: none;
+			text-decoration: none; 
+		}
+
+/*-----contacto-----*/
+
+.contacto{
+	padding: 100px;
+}
+
+.datos{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cform{
+	text-align: center;
+	width: 400px;
+
+}
+
+.information{
+	display: block;
+	width: 370px;
+	background-color: #9e9e9e;
+	cursor: pointer;
+	border: none;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	color: #fff;
+}
+
+
+.signup{
+	padding: 15px;
+	text-align: center;
+	background-color: #5c50cf;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+
+}
+/*-----footer-----*/
+footer{
+		padding: 50px;
+		background-color: #5c50cf;
+		height: 350px;
+		color: #fff;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+	width: 1170px;
+}
+
+.social__container{
+
+}
+
+.socialnetwork i{
+				font-size: 26.5px;
+				padding: 10px 12px;
+				color: #fff;
+				margin: 8px;
+			}
+
+
+				.socialnetwork i:hover{
+				cursor: pointer;
+				background-color: rgba(0, 216, 110, 0.82);
+				border-radius: 95px;
+				padding: 10px 12px;
+				font-size: 26.5px;
+				}
